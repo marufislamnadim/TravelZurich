@@ -1,0 +1,251 @@
+@media screen and (max-width:1024px) and (min-width: 600px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    html {
+        scroll-behavior: smooth;
+      }
+    body{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        line-height: 1.8rem;
+        box-sizing: border-box;
+    }
+    ul, ul li{
+        list-style: none;
+    }
+    a, a:hover{
+        text-decoration: none;
+    }
+    
+    .navbar-light .navbar-toggler {
+        background-color: white;
+        margin-top: -0.5rem;
+    }
+    .rounded-3 {
+        vertical-align: middle;
+        width: 55px;
+        height: 55px;
+    }
+    .navbar-light .navbar-brand {
+        color: tomato;
+        font-size: 1rem;
+    }
+    .navbar-toggler {
+        padding: 0.25rem 0.25rem;
+        font-size: 0.8rem;
+        line-height: 0;
+    }
+    .row {
+        --bs-gutter-x: 1rem;
+        --bs-gutter-y: 0rem;
+    }
+    .navbar-brand {
+        padding-top: 0rem;
+        margin-top: -0.5rem;
+    }
+    .card{
+        margin-top: 5rem;
+    }
+    .card-body h5 {
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    .card-body p {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .btn {
+        font-size: 0.8rem;
+        line-height: 1.0;
+    }
+
+    /* About Us */
+     section{
+        margin: 2rem auto 0rem;
+    }
+    .title-text{
+        font-size: 1.8rem;
+    }
+    .para-title {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .para-detail {
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+    .description{
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-items: left;
+    }
+    .galary {
+        width: 65%;
+        margin-top: 2rem;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .galary .photo-2 {
+        margin: -1rem auto 0;
+        margin-right: 1rem;
+        width: 12rem;
+        height: 16rem;
+        border-radius: 5px 0px;
+    }
+    .galary .photo-3 {
+        margin: 1rem auto 0;
+        margin-left: 1rem;
+        width: 12rem;
+        height: 16rem;
+        border-radius: 0px 5px;
+    }
+    .btn-success {
+        margin-top: 0rem;
+    }
+    /* Our packages */
+    .inner-title {
+        font-size: 1.5rem;
+    }
+    .inner-details{
+        margin: 0.8rem;
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width:599px) and (min-width: 320px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    html {
+        scroll-behavior: smooth;
+      }
+    body{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        line-height: 1.8rem;
+        box-sizing: border-box;
+    }
+    ul, ul li{
+        list-style: none;
+    }
+    a, a:hover{
+        text-decoration: none;
+    }
+    
+    .navbar-light .navbar-toggler {
+        background-color: white;
+        margin-top: -0.5rem;
+    }
+    .rounded-3 {
+        vertical-align: middle;
+        width: 55px;
+        height: 55px;
+    }
+    .navbar-light .navbar-brand {
+        color: tomato;
+        font-size: 1rem;
+    }
+    .navbar-toggler {
+        padding: 0.25rem 0.25rem;
+        font-size: 0.8rem;
+        line-height: 0;
+    }
+    .row {
+        --bs-gutter-x: 1rem;
+        --bs-gutter-y: 0rem;
+    }
+    .navbar-brand {
+        padding-top: 0rem;
+        margin-top: -0.5rem;
+    }
+    .card{
+        margin-top: 5rem;
+    }
+    .card-body h5 {
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    .card-body p {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .btn {
+        font-size: 0.8rem;
+        line-height: 1.0;
+    }
+    /* About us  */
+     section{
+        margin: 2rem auto 0rem;
+    }
+    .description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title-text{
+       
+        font-size: 1.8rem;
+    }
+    .para-title {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .para-detail {
+        font-size: 0.7rem;
+        line-height: 1rem;
+        text-align: justify;
+    } */
+    .description{
+        width: 35%;
+    } 
+    .galary {
+
+        margin-top: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .galary .photo-2 {
+        margin-top: 0rem;
+        width: 16rem;
+        height: 16rem;
+        border-radius: 5px;
+    }
+    .galary .photo-3 {
+        margin-top: 1rem;
+        width: 16rem;
+        height: 16rem;
+        border-radius: 5px;
+    }
+    .btn-success {
+        margin-top: 0rem;
+       
+    } 
+    /* Our packages */
+    .showcasing{
+        display: flex;
+        flex-direction: column;
+    }
+    .showcasing-rev{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .pack-title{
+        margin-top: 1rem;
+        font-size: 1rem;
+        line-height: 1.4rem;
+        padding: 0rem 4rem;
+        text-align: center;
+    }
+    .inner-title{
+        margin: 0.4rem;
+        font-size: 1.2rem;
+    }
+    .inner-details{
+        margin: 0rem;
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+}
