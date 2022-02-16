@@ -27,7 +27,7 @@ a, a:hover{
     position: relative;
   }
   #intro {
-    background-image: url("images/banner.jpg");
+    background-image: url("../images/banner.jpg");
     height: 100vh;
     color: white;
     background-repeat: no-repeat;
